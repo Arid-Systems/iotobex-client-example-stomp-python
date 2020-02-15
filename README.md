@@ -10,4 +10,6 @@ STOMP (Streaming Text Orientated Messaging Protocol) is a simple text-based prot
 
 This code utilizes the Python STOMP client by Jason R Briggs, and has been tested using version 5.0.1. Be sure to add the stomp.py package to your project.
 
-You will need an Iotobex user account. Be sure to configure the credentials and access URL and port in ClientExampleStompPython.py as per the Credentials and STOMP specifics as provided through the Iotobex Client Console. In addition, the stream name utilized in the example must be configured for the user whose credentials are specified. By means of the Iotobex Client Console, configure the stream name as both a publishable and subscribed stream.
+You will need an Iotobex user account. Be sure to configure the credentials and access URL and port in ClientExampleStompPython.py as per the Credentials and STOMP specifics as provided through the Iotobex Client Console. 
+
+Note that the stream name utilized in the example must be configured for the user whose credentials are specified. To do this, configure the stream name as both a publishable and subscribed stream by means of the Iotobex Client Console.
