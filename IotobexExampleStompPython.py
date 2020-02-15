@@ -1,5 +1,9 @@
 # IotobexExampleStompPython.py
 #
+# Example of a Python program to demonstrate a STOMP client interface for Iotobex. This program
+# publishes a single message then waits momentarily for reception of that message before terminating.
+#
+#
 # Copyright 2020 Arid Systems Pty Ltd
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +17,10 @@
 #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
+#
+#
+# Utilizes the Python STOMP client by Jason R Briggs. Has been tested using version
+# 5.0.1. Add the stomp.py package to project.
 
 import time
 import stomp
